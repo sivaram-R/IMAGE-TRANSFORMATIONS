@@ -53,11 +53,7 @@ Use array slicing to extract the cropped region from the input image.Display the
 
 #### Developed By: Sivaram R
 #### Register Number: 212222100050
-```
-<table>
-  <tr>
-   <td width=50%>
-     
+```    
 ### i)Image Translation
 ```python
 import numpy as np
@@ -76,20 +72,11 @@ plt.axis('off')
 plt.imshow(translated_image)
 plt.show()
 ```
-</td>
-<td>
   
 ### Output:
 ### i)Image Translation
 ![1](https://github.com/sivaram-R/IMAGE-TRANSFORMATIONS/assets/121165794/d05be5ed-7537-4841-9e5b-87a5d90b5aef)
 ![2](https://github.com/sivaram-R/IMAGE-TRANSFORMATIONS/assets/121165794/fc4457bb-12e9-4e45-9e6d-4689e86e4b58)
-</td>
-</tr>
-
-
-
-<tr>
-  <td width=50%>
   
 ### ii) Image Scaling
 ```python
@@ -109,19 +96,10 @@ scaled_img=cv2.warpPerspective (input_image, M, (cols*2, rows*2))
 plt.imshow(scaled_img)
 plt.show()
 ```
-</td>
-<td>
-  
 ### Output:
 ### ii) Image Scaling
 ![3](https://github.com/sivaram-R/IMAGE-TRANSFORMATIONS/assets/121165794/a47160b1-14c7-460a-a54f-acf02f07eb7d)
 ![4](https://github.com/sivaram-R/IMAGE-TRANSFORMATIONS/assets/121165794/7821a125-c2cd-4d3e-9b4b-9218d7eae95c)
-</td>
-</tr>
-
-<tr>
-  <td width=50%>
-
 ### iii)Image shearing
 ```python
 import numpy as np
@@ -145,21 +123,11 @@ plt.show()
 plt.imshow(sheared_img_yaxis)
 plt.show()
 ```
-</td>
-<td>
-  
 ### Output:
 ### iii)Image shearing
 ![3](https://github.com/sivaram-R/IMAGE-TRANSFORMATIONS/assets/121165794/510cc2e9-5492-4094-a80d-7832378c11cc)
 ![5](https://github.com/sivaram-R/IMAGE-TRANSFORMATIONS/assets/121165794/108dc9f4-083f-4010-991c-738e26e6e076)
 ![6](https://github.com/sivaram-R/IMAGE-TRANSFORMATIONS/assets/121165794/87ed521c-bf08-4afd-92ef-055dd8e252e5)
-</td>
-</tr>
-
-
-
-<tr>
-  <td width=50%>
 
 ### iv)Image Reflection
 ```python
@@ -185,21 +153,12 @@ plt.show()
 plt.imshow(reflected_img_yaxis)
 plt.show()
 ```
-</td>
-<td>
 
 ### Output:
 ### iv)Image Reflection
 ![3](https://github.com/sivaram-R/IMAGE-TRANSFORMATIONS/assets/121165794/9a19e2d2-fd74-47fe-b666-75b8796ca0f0)
 ![7](https://github.com/sivaram-R/IMAGE-TRANSFORMATIONS/assets/121165794/591c1fa0-5a1b-4212-bc54-0ef3a9875db6)
 ![8](https://github.com/sivaram-R/IMAGE-TRANSFORMATIONS/assets/121165794/19e4064f-2ce1-4497-9365-1511ee081091)
-</td>
-</tr>
-
-
-
-<tr>
- <td width=50%>
 
    ### v)Image Rotation
 ```python
@@ -219,20 +178,10 @@ rotated_img = cv2.warpPerspective(input_image,M,(int(cols),int(rows)))
 plt.imshow(rotated_img)
 plt.show()
 ```
-</td>
-<td>
-  
 ### Output:
 ### v)Image Rotation
 ![3](https://github.com/sivaram-R/IMAGE-TRANSFORMATIONS/assets/121165794/76d6dcc1-6931-4ef9-a38f-8c2cade91bbc)
 ![9](https://github.com/sivaram-R/IMAGE-TRANSFORMATIONS/assets/121165794/f22dc0f7-f16e-47be-8cb4-dedaf86c4758)
-</td>
-</tr>
-
-
-
-<tr>
- <td width=50%>
 
 ### vi)Image Cropping
 ```python
@@ -250,17 +199,10 @@ cropped_img= input_image[100:300,100:300]
 plt.imshow(cropped_img)
 plt.show()
 ```
-</td>
-<td>
-  
 ### Output:
 ### vi)Image Cropping
 ![3](https://github.com/sivaram-R/IMAGE-TRANSFORMATIONS/assets/121165794/4c27db89-e7e6-40c0-85b0-c1fde1852f83)
 ![10](https://github.com/sivaram-R/IMAGE-TRANSFORMATIONS/assets/121165794/c44cb557-916b-4924-8882-8e0cc6b9c230)
-</td>
-</tr>
-</table>
 
 ### Result: 
-
 Thus the different image transformations such as Translation, Scaling, Shearing, Reflection, Rotation and Cropping are done using OpenCV and python programming.
